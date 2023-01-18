@@ -8,10 +8,10 @@ const slides = [
       content: [
         {
           element: "p",
-          text: `Unit 6 - MEDICAL INSURANCE`,
-        },
-      ],
-    },
+          text: `Unit 6 - MEDICAL INSURANCE`
+        }
+      ]
+    }
   },
   // Slide#2
   {
@@ -22,10 +22,10 @@ const slides = [
       content: [
         {
           element: "video",
-          text: "Video 1",
-        },
-      ],
-    },
+          text: "Video 1"
+        }
+      ]
+    }
   },
   // Slide#3
   {
@@ -36,10 +36,10 @@ const slides = [
       content: [
         {
           element: "video",
-          text: "Video 2",
-        },
-      ],
-    },
+          text: "Video 2"
+        }
+      ]
+    }
   },
   // Slide#4
   {
@@ -50,14 +50,14 @@ const slides = [
       content: [
         {
           element: "p",
-          text: "1) Will you be able to describe your symptoms to a medical practitioner?",
+          text: "1) Will you be able to describe your symptoms to a medical practitioner?"
         },
         {
           element: "p",
-          text: "2) Will you be able to request the needed documents to submit a claim to an insurance company?",
-        },
-      ],
-    },
+          text: "2) Will you be able to request the needed documents to submit a claim to an insurance company?"
+        }
+      ]
+    }
   },
   // Slide#5
   {
@@ -68,10 +68,10 @@ const slides = [
       content: [
         {
           element: "video",
-          text: "Video 3",
-        },
-      ],
-    },
+          text: "Video 3"
+        }
+      ]
+    }
   },
   // Slide#6
   {
@@ -82,14 +82,14 @@ const slides = [
       content: [
         {
           element: "p",
-          text: "1) What are the insurance benefits?",
+          text: "1) What are the insurance benefits?"
         },
         {
           element: "p",
-          text: "2) Are the documents submitted to the insurance company important and why?",
-        },
-      ],
-    },
+          text: "2) Are the documents submitted to the insurance company important and why?"
+        }
+      ]
+    }
   },
   // Slide#7
   {
@@ -100,10 +100,10 @@ const slides = [
       content: [
         {
           element: "video",
-          text: "Video 4",
-        },
-      ],
-    },
+          text: "Video 4"
+        }
+      ]
+    }
   },
   // Slide#8
   {
@@ -115,27 +115,27 @@ const slides = [
         {
           element: "p",
           text: "* In this unit we learned what medical insurance is, and what some terms or expressions used to communicate this topic are. We covered the following:",
-          style: { fontWeight: 700 },
+          style: { fontWeight: 700 }
         },
         {
           element: "p",
-          text: "1) Submitting a claim and asking for approvals.",
+          text: "1) Submitting a claim and asking for approvals"
         },
         {
           element: "p",
-          text: "2) Hospitals and labs.",
+          text: "2) Hospitals and labs"
         },
         {
           element: "p",
-          text: "3) Benefits of health insurance.",
+          text: "3) Benefits of health insurance"
         },
         {
           element: "p",
           text: "* We also learned about phrasal verbs, combining verbs + prepositions or verbs + adverbs that create a new meaning to the words.",
-          style: { fontWeight: 700 },
-        },
-      ],
-    },
+          style: { fontWeight: 700 }
+        }
+      ]
+    }
   },
   //Slide#9-1
   {
@@ -149,13 +149,13 @@ const slides = [
     questionOptions: [
       {
         value: `financially`,
-        label: `financially`,
+        label: `financially`
       },
       {
         value: `dramatically`,
-        label: `dramatically`,
-      },
-    ],
+        label: `dramatically`
+      }
+    ]
   },
 
   {
@@ -169,13 +169,13 @@ const slides = [
     questionOptions: [
       {
         value: `individually`,
-        label: `individually`,
+        label: `individually`
       },
       {
         value: `collectively`,
-        label: `collectively`,
-      },
-    ],
+        label: `collectively`
+      }
+    ]
   },
   {
     number: 11,
@@ -188,21 +188,21 @@ const slides = [
     questionOptions: [
       {
         value: `theatrical - clam`,
-        label: `theatrical - clam`,
+        label: `theatrical - clam`
       },
       {
         value: `theatrical - claim`,
-        label: `theatrical - claim`,
+        label: `theatrical - claim`
       },
       {
         value: `medical - claim`,
-        label: `medical - claim`,
+        label: `medical - claim`
       },
       {
         value: `medical - clam`,
-        label: `medical - clam`,
-      },
-    ],
+        label: `medical - clam`
+      }
+    ]
   },
   //Slide#9-2
   {
@@ -216,8 +216,8 @@ const slides = [
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
-      { value: "False", label: "False" },
-    ],
+      { value: "False", label: "False" }
+    ]
   },
   {
     number: 13,
@@ -230,8 +230,8 @@ const slides = [
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
-      { value: "False", label: "False" },
-    ],
+      { value: "False", label: "False" }
+    ]
   },
   {
     number: 14,
@@ -244,8 +244,8 @@ const slides = [
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
-      { value: "False", label: "False" },
-    ],
+      { value: "False", label: "False" }
+    ]
   },
   {
     number: 15,
@@ -258,8 +258,8 @@ const slides = [
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
-      { value: "False", label: "False" },
-    ],
+      { value: "False", label: "False" }
+    ]
   },
   //Slide#10-1
   {
@@ -269,15 +269,20 @@ const slides = [
     title: "Unit Assessment",
     subTitle: `Fill in the blanks to complete the paragraph using the word bank given:`,
     mediumTitle: `Benefits are the (1)__________ insurance (2)__________ in terms of which (3)_____________ is covered and what is the authorized (4)_____________ of money to cover the patient.`,
-    matchOptions: [`1. _________`, `2. _________`, `3. _________`, `4. _________`],
+    matchOptions: [
+      `1. _________`,
+      `2. _________`,
+      `3. _________`,
+      `4. _________`
+    ],
     matchAnswers: ["amount", "health", "department", "policy"],
     correctMatch: {
-      "1. _________": "amount",
-      "2. _________": "health",
+      "1. _________": "health",
+      "2. _________": "policy",
       "3. _________": "department",
-      "4. _________": "policy",
+      "4. _________": "amount"
     },
-    correction: `amount, health, policy, department`,
+    correction: `health, policy, department, amount`
   },
 
   // Slide#10-2
@@ -289,7 +294,7 @@ const slides = [
     questionTitle: "Choose the mistake in the following sentences.",
     questionText: `1) Health insurance is a bank statement.`,
     correctAnswer: ["bank", "statement"],
-    questionOptions: ["statement", "insurance", "bank"],
+    questionOptions: ["statement", "insurance", "bank"]
   },
   {
     number: 18,
@@ -299,7 +304,7 @@ const slides = [
     questionTitle: "Choose the mistake in the following sentences.",
     questionText: `2) Medical and health insurance are different.`,
     correctAnswer: ["different"],
-    questionOptions: ["different", "insurance", "health"],
+    questionOptions: ["different", "insurance", "health"]
   },
   {
     number: 19,
@@ -309,7 +314,7 @@ const slides = [
     questionTitle: "Health insurance doctors do not assess the medical report.",
     questionText: `3) Health insurance doctors do not assess the medical report.`,
     correctAnswer: ["do", "not"],
-    questionOptions: ["not", "do", "assess", "report"],
+    questionOptions: ["not", "do", "assess", "report"]
   },
   {
     number: 20,
@@ -319,7 +324,7 @@ const slides = [
     questionTitle: "Reimbursing is repaying the insurance company.",
     questionText: `4) A basketball is round.`,
     correctAnswer: ["insurance", "company"],
-    questionOptions: ["insurance", "repaying", "company"],
+    questionOptions: ["insurance", "repaying", "company"]
   },
 
   //Slide#11
@@ -330,12 +335,13 @@ const slides = [
     title: "Unit Assessment",
     mediumTitle: "Choose True or False.",
     correctAnswer: "True",
-    questionText: "1. The client was submitting a claim for a surgical procedure.",
+    questionText:
+      "1. The client was submitting a claim for a surgical procedure.",
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
-      { value: "False", label: "False" },
-    ],
+      { value: "False", label: "False" }
+    ]
   },
   {
     number: 22,
@@ -348,8 +354,8 @@ const slides = [
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
-      { value: "False", label: "False" },
-    ],
+      { value: "False", label: "False" }
+    ]
   },
   {
     number: 23,
@@ -362,8 +368,8 @@ const slides = [
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
-      { value: "False", label: "False" },
-    ],
+      { value: "False", label: "False" }
+    ]
   },
   {
     number: 24,
@@ -376,8 +382,8 @@ const slides = [
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
-      { value: "False", label: "False" },
-    ],
+      { value: "False", label: "False" }
+    ]
   },
   //Slide#11-2
   {
@@ -385,19 +391,20 @@ const slides = [
     type: "Question",
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
-    mediumTitle: "Complete the sentence using a phrasal verb from the brackets.",
+    mediumTitle:
+      "Complete the sentence using a phrasal verb from the brackets.",
     questionText: `1) I asked my friend to ________ with her story about the hot air balloon.`,
     correctAnswer: `go on`,
     questionOptions: [
       {
         value: `go on`,
-        label: `go on`,
+        label: `go on`
       },
       {
         value: `get into`,
-        label: `get into`,
-      },
-    ],
+        label: `get into`
+      }
+    ]
   },
 
   {
@@ -405,77 +412,81 @@ const slides = [
     type: "Question",
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
-    mediumTitle: "Complete the sentence using a phrasal verb from the brackets.",
+    mediumTitle:
+      "Complete the sentence using a phrasal verb from the brackets.",
     questionText: `2) The teacher was expecting us to ___________the assignment early in the morning.`,
-    correctAnswer: `hand In`,
+    correctAnswer: `hand in`,
     questionOptions: [
       {
-        value: `hand In`,
-        label: `hand In`,
+        value: `hand in`,
+        label: `hand in`
       },
       {
         value: `land in`,
-        label: `land in`,
-      },
-    ],
+        label: `land in`
+      }
+    ]
   },
   {
     number: 27,
     type: "Question",
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
-    mediumTitle: "Complete the sentence using a phrasal verb from the brackets.",
+    mediumTitle:
+      "Complete the sentence using a phrasal verb from the brackets.",
     questionText: `3) The party was noisy, I couldn’t ____________ with it.`,
     correctAnswer: `put up`,
     questionOptions: [
       {
         value: `pull up`,
-        label: `pull up`,
+        label: `pull up`
       },
       {
         value: `put up`,
-        label: `put up`,
-      },
-    ],
+        label: `put up`
+      }
+    ]
   },
   {
     number: 28,
     type: "Question",
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
-    mediumTitle: "Complete the sentence using a phrasal verb from the brackets.",
-    questionText: `4) My father told me to always ___________ to the best`,
+    mediumTitle:
+      "Complete the sentence using a phrasal verb from the brackets.",
+    questionText: `4) My father told me to always ___________ to the best.`,
     correctAnswer: `look up`,
     questionOptions: [
       {
         value: `look up`,
-        label: `look up`,
+        label: `look up`
       },
       {
         value: `lock up`,
-        label: `lock up`,
-      },
-    ],
+        label: `lock up`
+      }
+    ]
   },
   {
     number: 29,
     type: "Question",
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
-    mediumTitle: "Complete the sentence using a phrasal verb from the brackets.",
-    questionText: `5) The police said that the criminal will not ____________ it`,
+    mediumTitle:
+      "Complete the sentence using a phrasal verb from the brackets.",
+    questionText: `5) The police said that the criminal will not ____________ it.`,
     correctAnswer: `get away with`,
     questionOptions: [
       {
         value: `get away with`,
-        label: `get away with`,
+        label: `get away with`
       },
       {
         value: `get onto`,
-        label: `get onto`,
-      },
-    ],
-  },
+        label: `get onto`
+      }
+    ]
+  }
 ];
 
 export default slides;

@@ -8,10 +8,10 @@ const slides = [
       content: [
         {
           element: "p",
-          text: `Unit 5 - World Cup`,
-        },
-      ],
-    },
+          text: `Unit 5 - World Cup`
+        }
+      ]
+    }
   },
   // Slide#2
   {
@@ -22,10 +22,10 @@ const slides = [
       content: [
         {
           element: "video",
-          text: "Video 1",
-        },
-      ],
-    },
+          text: "Video 1"
+        }
+      ]
+    }
   },
   // Slide#3 --------
   {
@@ -36,10 +36,10 @@ const slides = [
       content: [
         {
           element: "video",
-          text: "Video 2",
-        },
-      ],
-    },
+          text: "Video 2"
+        }
+      ]
+    }
   },
   // Slide#4
   {
@@ -53,13 +53,13 @@ const slides = [
     questionOptions: [
       {
         value: "host country",
-        label: "host country",
+        label: "host country"
       },
       {
         value: "hosted country",
-        label: "hosted country",
-      },
-    ],
+        label: "hosted country"
+      }
+    ]
   },
   {
     number: 5,
@@ -72,13 +72,13 @@ const slides = [
     questionOptions: [
       {
         value: `quality`,
-        label: `quality`,
+        label: `quality`
       },
       {
         value: `qualifying`,
-        label: `qualifying`,
-      },
-    ],
+        label: `qualifying`
+      }
+    ]
   },
   {
     number: 6,
@@ -91,13 +91,13 @@ const slides = [
     questionOptions: [
       {
         value: `finals`,
-        label: `finals`,
+        label: `finals`
       },
       {
         value: `finalists`,
-        label: `finalists`,
-      },
-    ],
+        label: `finalists`
+      }
+    ]
   },
   // Slide#5
   {
@@ -111,13 +111,13 @@ const slides = [
     questionOptions: [
       {
         value: `trophies`,
-        label: `trophies`,
+        label: `trophies`
       },
       {
         value: `triumphs`,
-        label: `triumphs`,
-      },
-    ],
+        label: `triumphs`
+      }
+    ]
   },
   {
     number: 8,
@@ -130,13 +130,13 @@ const slides = [
     questionOptions: [
       {
         value: `mascot`,
-        label: `mascot`,
+        label: `mascot`
       },
       {
         value: `finals`,
-        label: `finals`,
-      },
-    ],
+        label: `finals`
+      }
+    ]
   },
   {
     number: 9,
@@ -149,13 +149,13 @@ const slides = [
     questionOptions: [
       {
         value: `knockout`,
-        label: `knockout`,
+        label: `knockout`
       },
       {
         value: `semi-finals`,
-        label: `semi-finals`,
-      },
-    ],
+        label: `semi-finals`
+      }
+    ]
   },
   // Slide#6
   {
@@ -170,13 +170,13 @@ const slides = [
     questionOptions: [
       {
         value: `advantage`,
-        label: `advantage`,
+        label: `advantage`
       },
       {
         value: `disadvantage`,
-        label: `disadvantage`,
-      },
-    ],
+        label: `disadvantage`
+      }
+    ]
   },
   {
     number: 11,
@@ -190,13 +190,13 @@ const slides = [
     questionOptions: [
       {
         value: `advantage`,
-        label: `advantage`,
+        label: `advantage`
       },
       {
         value: `disadvantage`,
-        label: `disadvantage`,
-      },
-    ],
+        label: `disadvantage`
+      }
+    ]
   },
   {
     number: 12,
@@ -205,18 +205,18 @@ const slides = [
     subTitle: "Checking for Understanding",
     mediumTitle:
       "Decide whether the following is an advantage or a disadvantage of hosting the World Cup.",
-    questionText: `3) Facing and dealing with anger from fans`,
+    questionText: `3) Facing and dealing with anger from fans.`,
     correctAnswer: `disadvantage`,
     questionOptions: [
       {
         value: `advantage`,
-        label: `advantage`,
+        label: `advantage`
       },
       {
         value: `disadvantage`,
-        label: `disadvantage`,
-      },
-    ],
+        label: `disadvantage`
+      }
+    ]
   },
   // Slide#7
   {
@@ -226,18 +226,18 @@ const slides = [
     subTitle: "Checking for Understanding",
     mediumTitle:
       "Decide whether the following is an advantage or a disadvantage of hosting the World Cup.",
-    questionText: `4) Gives the national team a chance to shine on the world stage`,
+    questionText: `4) Gives the national team a chance to shine on the world stage.`,
     correctAnswer: `advantage`,
     questionOptions: [
       {
         value: `advantage`,
-        label: `advantage`,
+        label: `advantage`
       },
       {
         value: `disadvantage`,
-        label: `disadvantage`,
-      },
-    ],
+        label: `disadvantage`
+      }
+    ]
   },
   {
     number: 14,
@@ -246,32 +246,32 @@ const slides = [
     subTitle: "Checking for Understanding",
     mediumTitle:
       "Decide whether the following is an advantage or a disadvantage of hosting the World Cup.",
-    questionText: `5) Spending large amounts of money on building world class facilities for teams and their security`,
+    questionText: `5) Spending large amounts of money on building world class facilities for teams and their security.`,
     correctAnswer: `disadvantage`,
     questionOptions: [
       {
         value: `advantage`,
-        label: `advantage`,
+        label: `advantage`
       },
       {
         value: `disadvantage`,
-        label: `disadvantage`,
-      },
-    ],
+        label: `disadvantage`
+      }
+    ]
   },
   //Slide#8
   {
     number: 15,
     type: "Text",
     content: {
-      title: `World Cup Interesting Facts/The Impact and Importance of the World Cup/The Impact and Importance of the World Cup`,
+      title: `World Cup Interesting Facts/The Impact and Importance of the World Cup/The Impact and Importance of the World Cup.`,
       content: [
         {
           element: "video",
-          text: "Video 3",
-        },
-      ],
-    },
+          text: "Video 3"
+        }
+      ]
+    }
   },
   //Slide#9
   {
@@ -282,10 +282,10 @@ const slides = [
       content: [
         {
           element: "p",
-          text: "1) In your opinion, what are some of the pros and cons of hosting the World Cup that were not mentioned earlier?",
-        },
-      ],
-    },
+          text: "1) In your opinion, what are some of the pros and cons of hosting the World Cup that were not mentioned earlier?"
+        }
+      ]
+    }
   },
   //Slide#10
   {
@@ -299,13 +299,13 @@ const slides = [
     questionOptions: [
       {
         value: `tense`,
-        label: `tense`,
+        label: `tense`
       },
       {
         value: `thrilled`,
-        label: `thrilled`,
-      },
-    ],
+        label: `thrilled`
+      }
+    ]
   },
   {
     number: 18,
@@ -318,13 +318,13 @@ const slides = [
     questionOptions: [
       {
         value: `frustrating`,
-        label: `frustrating`,
+        label: `frustrating`
       },
       {
         value: `incredible`,
-        label: `incredible`,
-      },
-    ],
+        label: `incredible`
+      }
+    ]
   },
   {
     number: 19,
@@ -337,13 +337,13 @@ const slides = [
     questionOptions: [
       {
         value: `tense`,
-        label: `tense`,
+        label: `tense`
       },
       {
         value: `iconic`,
-        label: `iconic`,
-      },
-    ],
+        label: `iconic`
+      }
+    ]
   },
   //Slide#11
   {
@@ -357,13 +357,13 @@ const slides = [
     questionOptions: [
       {
         value: `frustrating`,
-        label: `frustrating`,
+        label: `frustrating`
       },
       {
         value: `legendary`,
-        label: `legendary`,
-      },
-    ],
+        label: `legendary`
+      }
+    ]
   },
   {
     number: 21,
@@ -376,13 +376,13 @@ const slides = [
     questionOptions: [
       {
         value: `legendary`,
-        label: `legendary`,
+        label: `legendary`
       },
       {
         value: `predictable`,
-        label: `predictable`,
-      },
-    ],
+        label: `predictable`
+      }
+    ]
   },
   //Slide#12
   {
@@ -393,26 +393,26 @@ const slides = [
       content: [
         {
           element: "p",
-          text: "1) Are you rooting for a certain team?",
+          text: "1) Are you rooting for a certain team?"
         },
         {
           element: "p",
-          text: "2) Do you have a favorite player?",
+          text: "2) Do you have a favorite player?"
         },
         {
           element: "p",
-          text: "3) Have you ever been to a World Cup?",
+          text: "3) Have you ever been to a World Cup?"
         },
         {
           element: "p",
-          text: "4) Are you going to this World Cup?",
+          text: "4) Are you going to this World Cup?"
         },
         {
           element: "p",
-          text: "5) Where will you be watching the World Cup?",
-        },
-      ],
-    },
+          text: "5) Where will you be watching the World Cup?"
+        }
+      ]
+    }
   },
   //Slide#13
   {
@@ -426,8 +426,8 @@ const slides = [
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
-      { value: "False", label: "False" },
-    ],
+      { value: "False", label: "False" }
+    ]
   },
   {
     number: 24,
@@ -441,8 +441,8 @@ const slides = [
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
-      { value: "False", label: "False" },
-    ],
+      { value: "False", label: "False" }
+    ]
   },
   {
     number: 25,
@@ -455,8 +455,8 @@ const slides = [
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
-      { value: "False", label: "False" },
-    ],
+      { value: "False", label: "False" }
+    ]
   },
   {
     number: 26,
@@ -470,8 +470,8 @@ const slides = [
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
-      { value: "False", label: "False" },
-    ],
+      { value: "False", label: "False" }
+    ]
   },
   {
     number: 27,
@@ -485,8 +485,8 @@ const slides = [
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
-      { value: "False", label: "False" },
-    ],
+      { value: "False", label: "False" }
+    ]
   },
   //Slide#14
   {
@@ -497,10 +497,10 @@ const slides = [
       content: [
         {
           element: "video",
-          text: "Video 4",
-        },
-      ],
-    },
+          text: "Video 4"
+        }
+      ]
+    }
   },
   // Slide#15
   {
@@ -513,35 +513,35 @@ const slides = [
         {
           element: "p",
           text: "* In this unit, we learned about the following:",
-          style: { fontWeight: 700 },
+          style: { fontWeight: 700 }
         },
         {
           element: "p",
-          text: "1) The FIFA World Cup.",
+          text: "1) The FIFA World Cup"
         },
         {
           element: "p",
-          text: "2) Host countries and the criteria of choosing them.",
+          text: "2) Host countries and the criteria of choosing them"
         },
         {
           element: "p",
-          text: "3) Pros and cons of hosting the World Cup.",
+          text: "3) Pros and cons of hosting the World Cup"
         },
         {
           element: "p",
-          text: "4) World Cup interesting facts.",
+          text: "4) World Cup interesting facts"
         },
         {
           element: "p",
-          text: "5) The impact and importance of the World Cup .",
+          text: "5) The impact and importance of the World Cup"
         },
         {
           element: "p",
           text: "* We will also learn how to use phrasal verbs in sentences and their different meanings.",
-          style: { fontWeight: 700 },
-        },
-      ],
-    },
+          style: { fontWeight: 700 }
+        }
+      ]
+    }
   },
   // Slide#16
   {
@@ -555,13 +555,13 @@ const slides = [
     questionOptions: [
       {
         value: `catch on`,
-        label: `catch on`,
+        label: `catch on`
       },
       {
         value: `catch up with`,
-        label: `catch up with`,
-      },
-    ],
+        label: `catch up with`
+      }
+    ]
   },
   {
     number: 31,
@@ -574,13 +574,13 @@ const slides = [
     questionOptions: [
       {
         value: `catching up with`,
-        label: `catching up with`,
+        label: `catching up with`
       },
       {
         value: `chatting up`,
-        label: `chatting up`,
-      },
-    ],
+        label: `chatting up`
+      }
+    ]
   },
   {
     number: 32,
@@ -593,13 +593,13 @@ const slides = [
     questionOptions: [
       {
         value: `catch at`,
-        label: `catch at`,
+        label: `catch at`
       },
       {
         value: `catch up with`,
-        label: `catch up with`,
-      },
-    ],
+        label: `catch up with`
+      }
+    ]
   },
   // Slide#17
   {
@@ -613,13 +613,13 @@ const slides = [
     questionOptions: [
       {
         value: `catch up with/on`,
-        label: `catch up with/on`,
+        label: `catch up with/on`
       },
       {
         value: `catch up with`,
-        label: `catch up with`,
-      },
-    ],
+        label: `catch up with`
+      }
+    ]
   },
   {
     number: 34,
@@ -632,13 +632,13 @@ const slides = [
     questionOptions: [
       {
         value: `catch at`,
-        label: `catch at`,
+        label: `catch at`
       },
       {
         value: `catch on`,
-        label: `catch on`,
-      },
-    ],
+        label: `catch on`
+      }
+    ]
   },
   // Slide#18
   {
@@ -652,24 +652,28 @@ const slides = [
       `2. a player or team that comes second in a tournament or race`,
       `3. a round of four matches, the winners of which qualify for the semi-finals`,
       `4. a round of two matches, the winner of which qualify for the final`,
-      `5. the stage of a tournament in which competitors are eliminated if they lose`,
+      `5. the stage of a tournament in which competitors are eliminated if they lose`
     ],
     matchAnswers: [
       `a. knockout stage`,
       `b. quarterfinals`,
       `c. group stage`,
       `d. runner-up`,
-      `e. semi-finals`,
+      `e. semi-finals`
     ],
     correctMatch: {
-      "1. the stage of a tournament in which player or teams compete in groups": "c. group stage",
-      "2. a player or team that comes second in a tournament or race": "d. runner-up",
-      "3. a round of four matches, the winners of which qualify for the semi-finals": "b. quarterfinals",
-      "4. a round of two matches, the winner of which qualify for the final": "e. semi-finals",
+      "1. the stage of a tournament in which player or teams compete in groups":
+        "c. group stage",
+      "2. a player or team that comes second in a tournament or race":
+        "d. runner-up",
+      "3. a round of four matches, the winners of which qualify for the semi-finals":
+        "b. quarterfinals",
+      "4. a round of two matches, the winner of which qualify for the final":
+        "e. semi-finals",
       "5. the stage of a tournament in which competitors are eliminated if they lose":
-        "a. knockout stage",
+        "a. knockout stage"
     },
-    correction: "The correct match is (1c, 2d, 3b, 4e, 5a)",
+    correction: "The correct match is (1c, 2d, 3b, 4e, 5a)"
   },
   // Slide#19
   {
@@ -683,13 +687,13 @@ const slides = [
     questionOptions: [
       {
         value: `winners`,
-        label: `winners`,
+        label: `winners`
       },
       {
         value: `runner-ups`,
-        label: `runner-ups`,
-      },
-    ],
+        label: `runner-ups`
+      }
+    ]
   },
   {
     number: 37,
@@ -702,13 +706,13 @@ const slides = [
     questionOptions: [
       {
         value: `qualified`,
-        label: `qualified`,
+        label: `qualified`
       },
       {
         value: `eliminated`,
-        label: `eliminated`,
-      },
-    ],
+        label: `eliminated`
+      }
+    ]
   },
   {
     number: 38,
@@ -721,13 +725,13 @@ const slides = [
     questionOptions: [
       {
         value: `semi-finals`,
-        label: `semi-finals`,
+        label: `semi-finals`
       },
       {
         value: `runner-ups`,
-        label: `runner-ups`,
-      },
-    ],
+        label: `runner-ups`
+      }
+    ]
   },
   // Slide#20
   {
@@ -741,13 +745,13 @@ const slides = [
     questionOptions: [
       {
         value: `opening ceremony`,
-        label: `opening ceremony`,
+        label: `opening ceremony`
       },
       {
         value: `host country`,
-        label: `host country`,
-      },
-    ],
+        label: `host country`
+      }
+    ]
   },
   {
     number: 40,
@@ -760,13 +764,13 @@ const slides = [
     questionOptions: [
       {
         value: `frustrating`,
-        label: `frustrating`,
+        label: `frustrating`
       },
       {
         value: `legendary`,
-        label: `legendary`,
-      },
-    ],
+        label: `legendary`
+      }
+    ]
   },
   // Slide#21
   {
@@ -775,18 +779,18 @@ const slides = [
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
     mediumTitle: "Choose the correct answer:",
-    questionText: `5) The ______________ skills of Mohamed Salah make him unique.`,
+    questionText: `6) The ______________ skills of Mohamed Salah make him unique.`,
     correctAnswer: `incredible`,
     questionOptions: [
       {
         value: `tense`,
-        label: `tense`,
+        label: `tense`
       },
       {
         value: `incredible`,
-        label: `incredible`,
-      },
-    ],
+        label: `incredible`
+      }
+    ]
   },
   {
     number: 42,
@@ -794,18 +798,18 @@ const slides = [
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
     mediumTitle: "Choose the correct answer:",
-    questionText: `5) Attending the World Cup was one of the most __________ experiences I’ve ever had.`,
+    questionText: `7) Attending the World Cup was one of the most __________ experiences I’ve ever had.`,
     correctAnswer: `thrilling`,
     questionOptions: [
       {
         value: `thrilling`,
-        label: `thrilling`,
+        label: `thrilling`
       },
       {
         value: `tense`,
-        label: `tense`,
-      },
-    ],
+        label: `tense`
+      }
+    ]
   },
   {
     number: 43,
@@ -815,23 +819,23 @@ const slides = [
       content: [
         {
           element: "p",
-          text: "1) Which international players is expected to shine?",
+          text: "1) Which international players are expected to shine?"
         },
         {
           element: "p",
-          text: "2) Who do you think is the best player in the world now?",
+          text: "2) Who do you think is the best player in the world now?"
         },
         {
           element: "p",
-          text: "3) Who do you think was the best player of all time?",
+          text: "3) Who do you think was the best player of all time?"
         },
         {
           element: "p",
-          text: "4) What is the best goal you have seen so far?",
-        },
-      ],
-    },
-  },
+          text: "4) What is the best goal you have seen so far?"
+        }
+      ]
+    }
+  }
 ];
 
 export default slides;

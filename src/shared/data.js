@@ -8,7 +8,7 @@ const slides = [
       content: [
         {
           element: "p",
-          text: `Unit 8 - Character Diversity`
+          text: `Unit 6 - MEDICAL INSURANCE`
         }
       ]
     }
@@ -32,7 +32,7 @@ const slides = [
     number: 3,
     type: "Text",
     content: {
-      title: `Character Diversity/How are character traits shown?/Observation Skills`,
+      title: `INSURANCE/HOSPITALS AND LABS`,
       content: [
         {
           element: "video",
@@ -50,19 +50,11 @@ const slides = [
       content: [
         {
           element: "p",
-          text: "1) When watching TV series such as Friends, how can you identify the character traits of the main character you are viewing?"
+          text: "1) Will you be able to describe your symptoms to a medical practitioner?"
         },
         {
           element: "p",
-          text: "2) From the above description, what can you infer about the character trait of Ms. Trunchbull?"
-        },
-        {
-          element: "p",
-          text: "3) What are observation skills?"
-        },
-        {
-          element: "p",
-          text: "4) Identify the three concepts that observation skills can help with. Explain each one."
+          text: "2) Will you be able to request the needed documents to submit a claim to an insurance company?"
         }
       ]
     }
@@ -72,7 +64,7 @@ const slides = [
     number: 5,
     type: "Text",
     content: {
-      title: `Body Language/How to Deal with Different Characters/Introverts and Extroverts/Sociopaths and Psychopaths`,
+      title: `BENEFITS`,
       content: [
         {
           element: "video",
@@ -90,31 +82,11 @@ const slides = [
       content: [
         {
           element: "p",
-          text: "1) What body language has the tourist noticed in our Egyptian Culture?"
+          text: "1) What are the insurance benefits?"
         },
         {
           element: "p",
-          text: "2) What actions has he felt confused about?"
-        },
-        {
-          element: "p",
-          text: "3) Use the words “exaggerating” and “even-keeled” in sentences of your choice."
-        },
-        {
-          element: "p",
-          text: "4) Who was short-tempered when young?"
-        },
-        {
-          element: "p",
-          text: "5) How did Manal’s sister get along with her character?"
-        },
-        {
-          element: "p",
-          text: "6) Using your own words, describe the difference between introvert and extrovert."
-        },
-        {
-          element: "p",
-          text: "7) State two facts about psychopaths and sociopaths."
+          text: "2) Are the documents submitted to the insurance company important and why?"
         }
       ]
     }
@@ -133,7 +105,7 @@ const slides = [
       ]
     }
   },
-  //Slide#8
+  // Slide#8
   {
     number: 8,
     type: "Text",
@@ -142,355 +114,378 @@ const slides = [
       content: [
         {
           element: "p",
-          text: "* In this unit, we have discussed terms and expressions used in Character Diversity. We have learnt about the following:",
+          text: "* In this unit we learned what medical insurance is, and what some terms or expressions used to communicate this topic are. We covered the following:",
           style: { fontWeight: 700 }
         },
         {
           element: "p",
-          text: "1) Character traits"
+          text: "1) Submitting a claim and asking for approvals"
         },
         {
           element: "p",
-          text: "2) Observation skills"
+          text: "2) Hospitals and labs"
         },
         {
           element: "p",
-          text: "3) Body language"
+          text: "3) Benefits of health insurance"
         },
         {
           element: "p",
-          text: "4) How to deal with different characters"
-        },
-
-        {
-          element: "p",
-          text: "5) Introverts and extroverts"
-        },
-        {
-          element: "p",
-          text: "6) Psychopaths and sociopaths"
-        },
-        {
-          element: "p",
-          text: "* We have learnt to use phrasal verbs in context.",
+          text: "* We also learned about phrasal verbs, combining verbs + prepositions or verbs + adverbs that create a new meaning to the words.",
           style: { fontWeight: 700 }
         }
       ]
     }
   },
-  //   Slide#9
+  //Slide#9-1
   {
     number: 9,
     type: "Question",
-    questionType: "TrueFalse",
-    title: "Unit Assessment ",
-    mediumTitle: "Choose whether the following sentences are true or false:",
-    correctAnswer: "False",
-    questionText: "1) Character traits are only related to behavior.",
-    correction: "",
+    questionType: "RadioButtons",
+    subTitle: "Unit Assessment",
+    mediumTitle: "Choose the correct answer:",
+    questionText: `1) Medical insurance is being ___________ covered in hospitals.`,
+    correctAnswer: `financially`,
     questionOptions: [
-      { value: "True", label: "True" },
-      { value: "False", label: "False" }
+      {
+        value: `financially`,
+        label: `financially`
+      },
+      {
+        value: `dramatically`,
+        label: `dramatically`
+      }
     ]
   },
+
   {
     number: 10,
     type: "Question",
-    questionType: "TrueFalse",
-    title: "Unit Assessment ",
-    mediumTitle: "Choose whether the following sentences are true or false:",
-    correctAnswer: "True",
-    questionText:
-      "2) A person can be described using positive and negative character traits.",
-    correction: "",
+    questionType: "RadioButtons",
+    subTitle: "Unit Assessment",
+    mediumTitle: "Choose the correct answer:",
+    questionText: `2) Health insurance can be obtained both ___________ or through a job contract benefits.`,
+    correctAnswer: `individually`,
     questionOptions: [
-      { value: "True", label: "True" },
-      { value: "False", label: "False" }
+      {
+        value: `individually`,
+        label: `individually`
+      },
+      {
+        value: `collectively`,
+        label: `collectively`
+      }
     ]
   },
-  //   Slide#10
   {
     number: 11,
     type: "Question",
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
-    mediumTitle: "Choose the correct answer.",
-    questionText: `1) We can infer a person’s character traits through:`,
-    correctAnswer: "All the above",
+    mediumTitle: "Choose the correct answer:",
+    questionText: `1) Doctors are required to provide a ____________report to be submitted with the ____________.`,
+    correctAnswer: `medical - claim`,
     questionOptions: [
       {
-        value: "Thoughts",
-        label: "Thoughts"
+        value: `theatrical - clam`,
+        label: `theatrical - clam`
       },
       {
-        value: "Feelings",
-        label: "Feelings"
+        value: `theatrical - claim`,
+        label: `theatrical - claim`
       },
       {
-        value: "Actions",
-        label: "Actions"
+        value: `medical - claim`,
+        label: `medical - claim`
       },
       {
-        value: "All the above",
-        label: "All the above"
+        value: `medical - clam`,
+        label: `medical - clam`
       }
     ]
   },
+  //Slide#9-2
   {
     number: 12,
     type: "Question",
-    questionType: "RadioButtons",
-    subTitle: "Unit Assessment",
-    mediumTitle: "Choose the correct answer.",
-    questionText: `2) Based on the description of Ms. Trunchbull, students at school ________.`,
-    correctAnswer: "feared her",
-    questionOptions: [
-      {
-        value: "trusted her",
-        label: "trusted her"
-      },
-      {
-        value: "feared her",
-        label: "feared her"
-      },
-      {
-        value: "respected her",
-        label: "respected her"
-      }
-    ]
-  },
-  // Slide#11
-  {
-    number: 13,
-    type: "Text",
-    content: {
-      title: `Unit Summary`,
-      content: [
-        {
-          element: "p",
-          text: "* Fill in the blanks to complete the paragraph:",
-          style: { fontWeight: 700 }
-        },
-        {
-          element: "p",
-          text: "1) _________ refers to the use of your senses in order to analyze and interpret what is happening around you."
-        },
-        {
-          element: "p",
-          text: "2) Observation skills can help with  ___________,  ____________, and in creating  ___________ both personally and in the workplace."
-        }
-      ]
-    }
-  },
-  // ------------------------------
-  {
-    number: 14,
-    type: "Question",
-    questionType: "MatchMultiple",
-    title: "Unit Summary",
-    subTitle: `Fill in the blanks to complete the paragraph:`,
-    mediumTitle: `Observation skills can help with  (1) ___________,  (2) ____________, and in creating  (3) ___________ both personally and in the workplace.`,
-    matchOptions: [`1. _________`, `2. _________`, `3. _________`],
-    matchAnswers: [
-      "problem solving",
-      "teamwork",
-      "critical-thinking",
-      "Observation skills"
-    ],
-    correctMatch: {
-      "1. _________": "problem solving",
-      "2. _________": "critical-thinking",
-      "3. _________": "teamwork"
-    },
-    correction: `problem solving, critical-thinking, teamwork`
-  },
-
-  // Slide#12
-  {
-    number: 15,
-    type: "Question",
-    questionType: "RadioButtons",
-    subTitle: "Unit Assessment ",
-    mediumTitle: "Fill in the blanks with the correct term.",
-    questionText: `1) ____________ is the use of physical behavior and expressions to communicate non-verbally.`,
-    correctAnswer: "Body language",
-    questionOptions: [
-      {
-        value: "talking",
-        label: "talking"
-      },
-      {
-        value: "Body language",
-        label: "Body language"
-      }
-    ]
-  },
-  {
-    number: 16,
-    type: "Question",
-    questionType: "RadioButtons",
-    subTitle: "Unit Assessment ",
-    mediumTitle: "Fill in the blanks with the correct term.",
-    questionText: `2) Based on the dialogue, the tourist stayed in Egypt ________ weeks.`,
-    correctAnswer: "two",
-    questionOptions: [
-      {
-        value: "one",
-        label: "one"
-      },
-      {
-        value: "two",
-        label: "two"
-      },
-      {
-        value: "three",
-        label: "three"
-      }
-    ]
-  },
-  {
-    number: 17,
-    type: "Question",
-    questionType: "RadioButtons",
-    subTitle: "Unit Assessment ",
-    mediumTitle: "Fill in the blanks with the correct term.",
-    questionText: `3) Egyptians will hold an ___________, meaning that their eye contact may be stronger than most from non-Arab nationalities.`,
-    correctAnswer: "intense stare",
-    questionOptions: [
-      {
-        value: "strong stare",
-        label: "strong stare"
-      },
-      {
-        value: "intense stare",
-        label: "intense stare"
-      }
-    ]
-  },
-  // Slide#13
-  {
-    number: 18,
-    type: "Text",
-    content: {
-      title: `Unit Assessment`,
-      content: [
-        {
-          element: "p",
-          text: "Answer the following questions based on the dialogue between Ahmed and Manal.",
-          style: { fontWeight: 700 }
-        },
-        {
-          element: "p",
-          text: `1) Describe Ahmed’s two sons’ character traits.`
-        },
-        {
-          element: "p",
-          text: `2) Choose 1 vocabulary word to be used in a sentence: ( timid - bubbly ).`
-        }
-      ]
-    }
-  },
-  // ----------------------------------
-  //Slide#14
-  {
-    number: 19,
-    type: "Question",
     questionType: "TrueFalse",
-    title: "Checking for Understanding",
-    mediumTitle: "Decide whether the following is true or false.",
+    title: "Unit Assessment",
+    mediumTitle: "Choose True or False.",
     correctAnswer: "False",
-    questionText:
-      "1) An introvert is a person who doesn’t thrives when he or she is alone. He or she may process information better when alone.",
+    questionText: "1. The patient was 15 years old.",
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
       { value: "False", label: "False" }
     ]
+  },
+  {
+    number: 13,
+    type: "Question",
+    questionType: "TrueFalse",
+    title: "Unit Assessment",
+    mediumTitle: "Choose True or False.",
+    correctAnswer: "False",
+    questionText: "1. The patient worked as a painter.",
+    correction: "",
+    questionOptions: [
+      { value: "True", label: "True" },
+      { value: "False", label: "False" }
+    ]
+  },
+  {
+    number: 14,
+    type: "Question",
+    questionType: "TrueFalse",
+    title: "Unit Assessment",
+    mediumTitle: "Choose True or False.",
+    correctAnswer: "True",
+    questionText: "1. The doctor requested blood work.",
+    correction: "",
+    questionOptions: [
+      { value: "True", label: "True" },
+      { value: "False", label: "False" }
+    ]
+  },
+  {
+    number: 15,
+    type: "Question",
+    questionType: "TrueFalse",
+    title: "Unit Assessment",
+    mediumTitle: "Choose True or False.",
+    correctAnswer: "False",
+    questionText: "1. The doctor prescribed anti-biotics for the patient.",
+    correction: "",
+    questionOptions: [
+      { value: "True", label: "True" },
+      { value: "False", label: "False" }
+    ]
+  },
+  //Slide#10-1
+  {
+    number: 16,
+    type: "Question",
+    questionType: "MatchMultiple",
+    title: "Unit Assessment",
+    subTitle: `Fill in the blanks to complete the paragraph using the word bank given:`,
+    mediumTitle: `Benefits are the (1)__________ insurance (2)__________ in terms of which (3)_____________ is covered and what is the authorized (4)_____________ of money to cover the patient.`,
+    matchOptions: [
+      `1. _________`,
+      `2. _________`,
+      `3. _________`,
+      `4. _________`
+    ],
+    matchAnswers: ["amount", "health", "department", "policy"],
+    correctMatch: {
+      "1. _________": "health",
+      "2. _________": "policy",
+      "3. _________": "department",
+      "4. _________": "amount"
+    },
+    correction: `health, policy, department, amount`
+  },
+
+  // Slide#10-2
+  {
+    number: 17,
+    type: "Question",
+    questionType: "CheckBoxes",
+    subTitle: "Unit Assessment",
+    questionTitle: "Choose the mistake in the following sentences.",
+    questionText: `1) Health insurance is a bank statement.`,
+    correctAnswer: ["bank", "statement"],
+    questionOptions: ["statement", "insurance", "bank"]
+  },
+  {
+    number: 18,
+    type: "Question",
+    questionType: "CheckBoxes",
+    subTitle: "Unit Assessment",
+    questionTitle: "Choose the mistake in the following sentences.",
+    questionText: `2) Medical and health insurance are different.`,
+    correctAnswer: ["different"],
+    questionOptions: ["different", "insurance", "health"]
+  },
+  {
+    number: 19,
+    type: "Question",
+    questionType: "CheckBoxes",
+    subTitle: "Unit Assessment",
+    questionTitle: "Health insurance doctors do not assess the medical report.",
+    questionText: `3) Health insurance doctors do not assess the medical report.`,
+    correctAnswer: ["do", "not"],
+    questionOptions: ["not", "do", "assess", "report"]
   },
   {
     number: 20,
     type: "Question",
-    questionType: "TrueFalse",
-    title: "Checking for Understanding",
-    mediumTitle: "Decide whether the following is true or false.",
-    correctAnswer: "True",
-    questionText:
-      "2) Introverts can get easily stimulated when being in a social setting, therefore, it is advised that they practice meditation and relaxation techniques.",
-    correction: "",
-    questionOptions: [
-      { value: "True", label: "True" },
-      { value: "False", label: "False" }
-    ]
+    questionType: "CheckBoxes",
+    subTitle: "Unit Assessment",
+    questionTitle: "Reimbursing is repaying the insurance company.",
+    questionText: `4) A basketball is round.`,
+    correctAnswer: ["insurance", "company"],
+    questionOptions: ["insurance", "repaying", "company"]
   },
+
+  //Slide#11
   {
     number: 21,
     type: "Question",
     questionType: "TrueFalse",
-    title: "Checking for Understanding",
-    mediumTitle: "Decide whether the following is true or false.",
-    correctAnswer: "False",
-    questionText: "3) An extrovert draws his or her energy from the the sun.",
+    title: "Unit Assessment",
+    mediumTitle: "Choose True or False.",
+    correctAnswer: "True",
+    questionText:
+      "1. The client was submitting a claim for a surgical procedure.",
     correction: "",
     questionOptions: [
       { value: "True", label: "True" },
       { value: "False", label: "False" }
     ]
   },
-  //   Slide#15
   {
     number: 22,
-    type: "Text",
-    content: {
-      title: `Unit Assessment`,
-      content: [
-        {
-          element: "p",
-          text: "Answer the following question.",
-          style: { fontWeight: 700 }
-        },
-        {
-          element: "p",
-          text: `State the difference between sociopaths and psychopaths.`
-        }
-      ]
-    }
+    type: "Question",
+    questionType: "TrueFalse",
+    title: "Unit Assessment",
+    mediumTitle: "Choose True or False.",
+    correctAnswer: "False",
+    questionText: "2. The insurance representative declined the claim.",
+    correction: "",
+    questionOptions: [
+      { value: "True", label: "True" },
+      { value: "False", label: "False" }
+    ]
   },
-  //   Slide#16
   {
     number: 23,
-    type: "Text",
-    content: {
-      title: `Unit Assessment`,
-      content: [
-        {
-          element: "p",
-          text: "Define the following phrasal verbs then use each in a sentence of your choice.",
-          style: { fontWeight: 700 }
-        },
-        {
-          element: "p",
-          text: `Bring something up:`
-        }
-      ]
-    }
+    type: "Question",
+    questionType: "TrueFalse",
+    title: "Unit Assessment",
+    mediumTitle: "Choose True or False.",
+    correctAnswer: "False",
+    questionText: "3. The insurance company paid for a single room.",
+    correction: "",
+    questionOptions: [
+      { value: "True", label: "True" },
+      { value: "False", label: "False" }
+    ]
   },
   {
     number: 24,
-    type: "Text",
-    content: {
-      title: `Unit Assessment`,
-      content: [
-        {
-          element: "p",
-          text: "Define the following phrasal verbs then use each in a sentence of your choice.",
-          style: { fontWeight: 700 }
-        },
-        {
-          element: "p",
-          text: `Grow out of something:`
-        }
-      ]
-    }
+    type: "Question",
+    questionType: "TrueFalse",
+    title: "Unit Assessment",
+    mediumTitle: "Choose True or False.",
+    correctAnswer: "True",
+    questionText: "4. The patient did fill in a form with personal data.",
+    correction: "",
+    questionOptions: [
+      { value: "True", label: "True" },
+      { value: "False", label: "False" }
+    ]
+  },
+  //Slide#11-2
+  {
+    number: 25,
+    type: "Question",
+    questionType: "RadioButtons",
+    subTitle: "Unit Assessment",
+    mediumTitle:
+      "Complete the sentence using a phrasal verb from the brackets.",
+    questionText: `1) I asked my friend to ________ with her story about the hot air balloon.`,
+    correctAnswer: `go on`,
+    questionOptions: [
+      {
+        value: `go on`,
+        label: `go on`
+      },
+      {
+        value: `get into`,
+        label: `get into`
+      }
+    ]
+  },
+
+  {
+    number: 26,
+    type: "Question",
+    questionType: "RadioButtons",
+    subTitle: "Unit Assessment",
+    mediumTitle:
+      "Complete the sentence using a phrasal verb from the brackets.",
+    questionText: `2) The teacher was expecting us to ___________the assignment early in the morning.`,
+    correctAnswer: `hand in`,
+    questionOptions: [
+      {
+        value: `hand in`,
+        label: `hand in`
+      },
+      {
+        value: `land in`,
+        label: `land in`
+      }
+    ]
+  },
+  {
+    number: 27,
+    type: "Question",
+    questionType: "RadioButtons",
+    subTitle: "Unit Assessment",
+    mediumTitle:
+      "Complete the sentence using a phrasal verb from the brackets.",
+    questionText: `3) The party was noisy, I couldn’t ____________ with it.`,
+    correctAnswer: `put up`,
+    questionOptions: [
+      {
+        value: `pull up`,
+        label: `pull up`
+      },
+      {
+        value: `put up`,
+        label: `put up`
+      }
+    ]
+  },
+  {
+    number: 28,
+    type: "Question",
+    questionType: "RadioButtons",
+    subTitle: "Unit Assessment",
+    mediumTitle:
+      "Complete the sentence using a phrasal verb from the brackets.",
+    questionText: `4) My father told me to always ___________ to the best.`,
+    correctAnswer: `look up`,
+    questionOptions: [
+      {
+        value: `look up`,
+        label: `look up`
+      },
+      {
+        value: `lock up`,
+        label: `lock up`
+      }
+    ]
+  },
+  {
+    number: 29,
+    type: "Question",
+    questionType: "RadioButtons",
+    subTitle: "Unit Assessment",
+    mediumTitle:
+      "Complete the sentence using a phrasal verb from the brackets.",
+    questionText: `5) The police said that the criminal will not ____________ it.`,
+    correctAnswer: `get away with`,
+    questionOptions: [
+      {
+        value: `get away with`,
+        label: `get away with`
+      },
+      {
+        value: `get onto`,
+        label: `get onto`
+      }
+    ]
   }
 ];
 
