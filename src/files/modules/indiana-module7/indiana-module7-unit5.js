@@ -22,7 +22,7 @@ const slides = [
       content: [
         {
           element: "video",
-          text: "Video 1"
+          text: "https://media.ta3limy.com/videos/BalancED-EPP/Module7/U5v1.mp4"
         }
       ]
     }
@@ -36,7 +36,7 @@ const slides = [
       content: [
         {
           element: "video",
-          text: "Video 2"
+          text: "https://media.ta3limy.com/videos/BalancED-EPP/Module7/U5v2.mp4"
         }
       ]
     }
@@ -268,7 +268,7 @@ const slides = [
       content: [
         {
           element: "video",
-          text: "Video 3"
+          text: "https://media.ta3limy.com/videos/BalancED-EPP/Module7/U5v3.mp4"
         }
       ]
     }
@@ -497,7 +497,7 @@ const slides = [
       content: [
         {
           element: "video",
-          text: "Video 4"
+          text: "https://media.ta3limy.com/videos/BalancED-EPP/Module7/U5v4.mp4"
         }
       ]
     }

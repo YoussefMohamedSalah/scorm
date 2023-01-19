@@ -22,7 +22,7 @@ const slides = [
       content: [
         {
           element: "video",
-          text: "Video 1"
+          text: "https://media.ta3limy.com/videos/BalancED-EPP/Module7/U3v1.mp4"
         }
       ]
     }
@@ -36,14 +36,28 @@ const slides = [
       content: [
         {
           element: "video",
-          text: "Video 2"
+          text: "https://media.ta3limy.com/videos/BalancED-EPP/Module7/U3v2-1.mp4"
+        }
+      ]
+    }
+  },
+  // -------------------------
+  {
+    number: 4,
+    type: "Text",
+    content: {
+      title: `Business/TYPES OF BUSINESS`,
+      content: [
+        {
+          element: "video",
+          text: "https://media.ta3limy.com/videos/BalancED-EPP/Module7/U3v2-2.mp4"
         }
       ]
     }
   },
   // Slide#4
   {
-    number: 4,
+    number: 5,
     type: "Text",
     content: {
       title: `Checking for Understanding`,
@@ -59,21 +73,8 @@ const slides = [
       ]
     }
   },
+
   // Slide#5
-  {
-    number: 5,
-    type: "Text",
-    content: {
-      title: `MARKETING AND BUSINESS`,
-      content: [
-        {
-          element: "video",
-          text: "Video 3"
-        }
-      ]
-    }
-  },
-  // Slide#6
   {
     number: 6,
     type: "Text",
@@ -91,23 +92,37 @@ const slides = [
       ]
     }
   },
-  // Slide#7
+  // Slide#6
   {
     number: 7,
+    type: "Text",
+    content: {
+      title: `MARKETING AND BUSINESS`,
+      content: [
+        {
+          element: "video",
+          text: "https://media.ta3limy.com/videos/BalancED-EPP/Module7/U3v3.mp4"
+        }
+      ]
+    }
+  },
+  // Slide#7
+  {
+    number: 8,
     type: "Text",
     content: {
       title: `It’s Pronunciation Time!`,
       content: [
         {
           element: "video",
-          text: "Video 4"
+          text: "https://media.ta3limy.com/videos/BalancED-EPP/Module7/U3v4.mp4"
         }
       ]
     }
   },
   // SLide#8
   {
-    number: 8,
+    number: 9,
     type: "Text",
     content: {
       title: `Unit Summary`,
@@ -138,7 +153,7 @@ const slides = [
   },
   // SLide#9
   {
-    number: 9,
+    number: 10,
     type: "Question",
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
@@ -157,7 +172,7 @@ const slides = [
     ]
   },
   {
-    number: 10,
+    number: 11,
     type: "Question",
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
@@ -176,7 +191,7 @@ const slides = [
     ]
   },
   {
-    number: 11,
+    number: 12,
     type: "Question",
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
@@ -195,7 +210,7 @@ const slides = [
     ]
   },
   {
-    number: 12,
+    number: 13,
     type: "Question",
     questionType: "TrueFalse",
     title: "Unit Assessment",
@@ -209,7 +224,7 @@ const slides = [
     ]
   },
   {
-    number: 13,
+    number: 14,
     type: "Question",
     questionType: "TrueFalse",
     title: "Unit Assessment",
@@ -223,7 +238,7 @@ const slides = [
     ]
   },
   {
-    number: 14,
+    number: 15,
     type: "Question",
     questionType: "TrueFalse",
     title: "Unit Assessment",
@@ -238,7 +253,7 @@ const slides = [
     ]
   },
   {
-    number: 15,
+    number: 16,
     type: "Question",
     questionType: "TrueFalse",
     title: "Unit Assessment",
@@ -253,7 +268,7 @@ const slides = [
   },
   // Slide#10
   {
-    number: 16,
+    number: 17,
     type: "Question",
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
@@ -272,7 +287,7 @@ const slides = [
     ]
   },
   {
-    number: 17,
+    number: 18,
     type: "Question",
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
@@ -291,7 +306,7 @@ const slides = [
     ]
   },
   {
-    number: 18,
+    number: 19,
     type: "Question",
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
@@ -310,7 +325,7 @@ const slides = [
     ]
   },
   {
-    number: 19,
+    number: 20,
     type: "Question",
     questionType: "RadioButtons",
     subTitle: "Unit Assessment",
@@ -329,7 +344,7 @@ const slides = [
     ]
   },
   {
-    number: 20,
+    number: 21,
     type: "Question",
     questionType: "TrueFalse",
     title: "Unit Assessment",
@@ -343,7 +358,7 @@ const slides = [
     ]
   },
   {
-    number: 21,
+    number: 22,
     type: "Question",
     questionType: "TrueFalse",
     title: "Unit Assessment",
@@ -357,7 +372,7 @@ const slides = [
     ]
   },
   {
-    number: 22,
+    number: 23,
     type: "Question",
     questionType: "TrueFalse",
     title: "Unit Assessment",
@@ -372,7 +387,7 @@ const slides = [
   },
   // Slide#11
   {
-    number: 23,
+    number: 24,
     type: "Question",
     questionType: "MatchMultiple",
     title: "Unit Assessment",
@@ -416,7 +431,7 @@ const slides = [
 
   // Slide#12
   {
-    number: 24,
+    number: 25,
     type: "Text",
     content: {
       title: `Unit Summary`,
